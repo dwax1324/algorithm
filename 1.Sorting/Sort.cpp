@@ -6,7 +6,7 @@
 using namespace std;
 
 std::random_device dev;
-std::mt19937 rng(dev());
+std::mt19937 rng(dev());;
 class Sort {
 public:
     vector<int> v;
